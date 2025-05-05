@@ -887,6 +887,7 @@ main {
 
 
 .scroll-arrow {
+    z-index: 1 !important;
     display: none;
     position: fixed;
     align-items: center;
@@ -897,8 +898,8 @@ main {
     color: white;
     font-weight: bold;
     border: none;
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     font-size: 2.5rem;
     padding: 0.6rem 1rem;
@@ -1300,7 +1301,7 @@ main {
 
     .chat-container {
         width: 100%;
-        height: 100vh;
+        height: 90vh;
         right: auto;
         bottom: -2px;
         z-index: 1000000;
@@ -1321,6 +1322,10 @@ main {
 
     .custom-shape-divider {
         background-color: #000;
+    }
+
+    .player-cards {
+        flex-wrap: unset;
     }
 }
 

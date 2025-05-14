@@ -1261,13 +1261,13 @@ main {
     .custom-shape-divider-left {
         clip-path: polygon(100% 0, 100% 100%, 0 124%);
     }
-}
 
-@media (width <=1366px) {
     .team-section {
         min-height: fit-content;
     }
 }
+
+/* @media (width <=1366px) {} */
 
 
 @media (width >=1024px) {

@@ -1263,6 +1263,13 @@ main {
     }
 }
 
+@media (width <=1366px) {
+    .team-section {
+        min-height: fit-content;
+    }
+}
+
+
 @media (width >=1024px) {
     .container-header-mobile {
         display: none;
